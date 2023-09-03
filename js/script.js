@@ -18,7 +18,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = async () => {
-    const API_KEY = "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";
+    const API_KEY = "Write here the api_key";
     let userMessage;
     const API_URL = "https://api.openai.com/v1/chat/completions";
     const requestOptions = {
